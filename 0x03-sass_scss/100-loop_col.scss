@@ -1,0 +1,7 @@
+$f : 1;
+$t: 4;
+@for $width from 1 through 4 {
+	.col-#{$width} {
+	width: percentage(1 / $width);
+	}
+}
