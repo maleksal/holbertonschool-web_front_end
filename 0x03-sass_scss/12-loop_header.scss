@@ -1,0 +1,5 @@
+@for $hn from 1 through 6{
+    h#{$heading} {
+        font-size: #{$heading}px;
+    }
+}
