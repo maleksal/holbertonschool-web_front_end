@@ -2,8 +2,7 @@
 $customvar : #3D3D3D;
 body {
     color: $customvar;
-    .p {
-        color: $customvar;
-    }
-
+}
+p {
+    color: $customvar;
 }
