@@ -1,4 +1,4 @@
-@for $hn from 1 through 6{
+@for $hn from 1 through 5{
     h#{$hn} {
         font-size: #{$hn}px;
     }
