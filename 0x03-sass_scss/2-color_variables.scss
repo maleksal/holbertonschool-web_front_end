@@ -1,0 +1,14 @@
+/* write to debug output */
+$colorvar: #3D3D3D;
+$bgcolorvar: #6D6D6D;
+body {
+    color:$colorvar;
+    background-color: $bgcolorvar; 
+}
+  
+p {
+    color: $colorvar; }
+  
+h2 {
+    background-color: $bgcolorvar;
+}
