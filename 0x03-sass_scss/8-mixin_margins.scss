@@ -1,0 +1,12 @@
+/* write to debug output */
+@mixin margin($value){
+    margin-left: $value;
+    margin-right: $value;
+}
+body {
+    @include margin(10px);
+}
+  
+  div {
+    @include margin(10px);
+}
