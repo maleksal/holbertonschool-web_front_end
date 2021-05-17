@@ -170,7 +170,7 @@
   
   .visually-hidden:not(:focus):not(:active) {
     position: absolute !important;
-    height: 1px;
+    height: 1px;02
     width: 1px;
     overflow: hidden;
     clip: rect(1px, 1px, 1px, 1px);
