@@ -40,8 +40,18 @@
                 ]);
             }
 
+            function replaceFamilyTree() {
+            $('tbody').html(
+                $('<tr/>').append([
+                    $('<th/>', { text: "Gerard"}),
+                    $('<th/>', { text: "Bonissa"})            
+                    ])
+                );   
+            }
+            
             $(document).ready(function() {
                 createFamilyTree();
+                replaceFamilyTree();
             });
         </script>
 
