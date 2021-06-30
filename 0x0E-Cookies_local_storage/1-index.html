@@ -20,7 +20,7 @@
         function setCookies() {
             date = new Date(Date.now() + 10 * 86400000).toUTCString();
             document.cookie= `firstname=${document.getElementById('firstname').value}; expires=${date}`;
-            document.cookie= `email=${document.getElementById('email').value} expires=${date}`;
+            document.cookie= `email=${document.getElementById('email').value}; expires=${date}`;
 
         }
 
